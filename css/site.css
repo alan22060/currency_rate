@@ -1,0 +1,64 @@
+:root {
+	--bg-color: #222831;
+	--page-spacing: 90px;
+}
+
+body{background: var(--bg-color);}
+
+.TopNav{
+	background-color: #222831;
+	;}
+
+
+.Bar{
+	position: relative;
+	background-color: rgb(20, 189, 56);
+	text-align: center;
+	justify-content: center;
+	box-sizing: content-box;
+	margin-bottom: -60px;
+	margin-right: var(--page-spacing);
+	font-size: 26px;
+	color: black;
+	font-family: 'Nanum Gothic Coding', monospace;
+	transition: background-color .9s;
+}	
+
+
+
+
+
+
+.BarContainer{
+	margin-left: var(--page-spacing);
+	margin-right: var(--page-spacing);
+	display:  grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	align-items: flex-end;
+	height: 45vw;
+	width: 85vw;
+
+}
+
+
+
+
+h1{
+	text-align:center;
+	color: rgb(20, 189, 56);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 5;
+	font-style: unset;
+	
+}
+
+.Bar:hover{
+	background-color: #ff5722;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
